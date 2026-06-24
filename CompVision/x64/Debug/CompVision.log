@@ -1,0 +1,468 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in S:\labs\comp_vision_cpp\CompVision\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  combined_view.cpp
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'combined_view.cpp')
+      G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  disparity_filtering.cpp
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'disparity_filtering.cpp')
+      G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  disparity_map.cpp
+  load_view.cpp
+S:\labs\comp_vision_cpp\CompVision\CompVision\load_view.cpp(144,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\load_view.cpp(146,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\load_view.cpp(147,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'load_view.cpp')
+      G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  model_matrix.cpp
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'model_matrix.cpp')
+      G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  get_view.cpp
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'get_view.cpp')
+      G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  main.cpp
+  ObjectSearch.cpp
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(53,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,24): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,24): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,24): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,24): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,24): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,20): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,20): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,20): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,20): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,20): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,36): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,36): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,36): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,36): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,36): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,32): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,32): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,32): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,32): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(72,32): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,35): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,26): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,57): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\ObjectSearch.cpp(123,48): warning C4244:         ]
+  plan_frame_sequence.cpp
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'plan_frame_sequence.cpp')
+      G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d-devel-windows-amd64-0.17.0\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  remove_background.cpp
+  Generating Code...
+wxmsw33ud_core.lib(app.cpp.obj) : error LNK2019: unresolved external symbol __imp_InitCommonControls referenced in function "public: virtual bool __cdecl wxApp::Initialize(int &,wchar_t * *)" (?Initialize@wxApp@@UEAA_NAEAHPEAPEA_W@Z)
+wxmsw33ud_core.lib(spinbutt.cpp.obj) : error LNK2019: unresolved external symbol __imp_CreateUpDownControl referenced in function "public: bool __cdecl wxSpinButton::Create(class wxWindow *,int,class wxPoint const &,class wxSize const &,long,class wxString const &)" (?Create@wxSpinButton@@QEAA_NPEAVwxWindow@@HAEBVwxPoint@@AEBVwxSize@@JAEBVwxString@@@Z)
+wxmsw33ud_core.lib(dialog.cpp.obj) : error LNK2019: unresolved external symbol SetWindowSubclass referenced in function "private: void __cdecl wxDialog::CreateGripper(void)" (?CreateGripper@wxDialog@@AEAAXXZ)
+wxmsw33ud_core.lib(dialog.cpp.obj) : error LNK2019: unresolved external symbol RemoveWindowSubclass referenced in function "__int64 __cdecl wxMSWImpl::GripperProc(struct HWND__ *,unsigned int,unsigned __int64,__int64,unsigned __int64,unsigned __int64)" (?GripperProc@wxMSWImpl@@YA_JPEAUHWND__@@I_K_J11@Z)
+wxmsw33ud_core.lib(dialog.cpp.obj) : error LNK2019: unresolved external symbol DefSubclassProc referenced in function "__int64 __cdecl wxMSWImpl::GripperProc(struct HWND__ *,unsigned int,unsigned __int64,__int64,unsigned __int64,unsigned __int64)" (?GripperProc@wxMSWImpl@@YA_JPEAUHWND__@@I_K_J11@Z)
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_Create referenced in function "public: bool __cdecl wxImageList::Create(int,int,bool,int)" (?Create@wxImageList@@QEAA_NHH_NH@Z)
+wxmsw33ud_core.lib(ownerdrw.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Create
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Create
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_Destroy referenced in function "public: virtual void __cdecl wxImageList::Destroy(void)" (?Destroy@wxImageList@@UEAAXXZ)
+wxmsw33ud_core.lib(ownerdrw.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Destroy
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Destroy
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_GetImageCount referenced in function "public: virtual int __cdecl wxImageList::GetImageCount(void)const " (?GetImageCount@wxImageList@@UEBAHXZ)
+wxmsw33ud_core.lib(listctrl.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_GetImageCount
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_Add referenced in function "public: virtual int __cdecl wxImageList::Add(class wxBitmap const &,class wxBitmap const &)" (?Add@wxImageList@@UEAAHAEBVwxBitmap@@0@Z)
+wxmsw33ud_core.lib(ownerdrw.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Add
+wxmsw33ud_core.lib(treectrl.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Add
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Add
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_SetBkColor referenced in function "public: virtual bool __cdecl wxImageList::Draw(int,class wxDC &,int,int,int,bool)" (?Draw@wxImageList@@UEAA_NHAEAVwxDC@@HHH_N@Z)
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_Draw referenced in function "public: virtual bool __cdecl wxImageList::Draw(int,class wxDC &,int,int,int,bool)" (?Draw@wxImageList@@UEAA_NHAEAVwxDC@@HHH_N@Z)
+wxmsw33ud_core.lib(listctrl.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Draw
+wxmsw33ud_core.lib(ownerdrw.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_Draw
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_Replace referenced in function "public: virtual bool __cdecl wxImageList::Replace(int,class wxBitmap const &,class wxBitmap const &)" (?Replace@wxImageList@@UEAA_NHAEBVwxBitmap@@0@Z)
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_AddMasked referenced in function "public: virtual int __cdecl wxImageList::Add(class wxBitmap const &,class wxColour const &)" (?Add@wxImageList@@UEAAHAEBVwxBitmap@@AEBVwxColour@@@Z)
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_Remove referenced in function "public: virtual bool __cdecl wxImageList::Remove(int)" (?Remove@wxImageList@@UEAA_NH@Z)
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_GetIcon referenced in function "public: virtual class wxIcon __cdecl wxImageList::GetIcon(int)const " (?GetIcon@wxImageList@@UEBA?AVwxIcon@@H@Z)
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_GetIconSize referenced in function "public: virtual bool __cdecl wxImageList::GetSize(int,int &,int &)const " (?GetSize@wxImageList@@UEBA_NHAEAH0@Z)
+wxmsw33ud_core.lib(listctrl.cpp.obj) : error LNK2001: unresolved external symbol __imp_ImageList_GetIconSize
+wxmsw33ud_core.lib(imaglist.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_GetImageInfo referenced in function "public: virtual class wxBitmap __cdecl wxImageList::GetBitmap(int)const " (?GetBitmap@wxImageList@@UEBA?AVwxBitmap@@H@Z)
+wxmsw33ud_core.lib(uuid.cpp.obj) : error LNK2019: unresolved external symbol __imp_RpcStringFreeW referenced in function "public: __cdecl Uuid::~Uuid(void)" (??1Uuid@@QEAA@XZ)
+wxmsw33ud_core.lib(uuid.cpp.obj) : error LNK2019: unresolved external symbol __imp_UuidCreate referenced in function "public: void __cdecl Uuid::Create(void)" (?Create@Uuid@@QEAAXXZ)
+wxmsw33ud_core.lib(uuid.cpp.obj) : error LNK2019: unresolved external symbol __imp_UuidToStringW referenced in function "public: __cdecl Uuid::Uuid(class Uuid const &)" (??0Uuid@@QEAA@AEBV0@@Z)
+wxmsw33ud_core.lib(uuid.cpp.obj) : error LNK2019: unresolved external symbol __imp_UuidFromStringW referenced in function "public: bool __cdecl Uuid::Set(wchar_t const *)" (?Set@Uuid@@QEAA_NPEB_W@Z)
+wxmsw33ud_core.lib(treectrl.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_Copy referenced in function "public: virtual bool __cdecl wxTreeCtrl::MSWOnNotify(int,__int64,__int64 *)" (?MSWOnNotify@wxTreeCtrl@@UEAA_NH_JPEA_J@Z)
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_ReplaceIcon referenced in function "public: bool __cdecl wxDragImage::Create(class wxIcon const &,class wxCursor const &)" (?Create@wxDragImage@@QEAA_NAEBVwxIcon@@AEBVwxCursor@@@Z)
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_BeginDrag referenced in function "public: bool __cdecl wxDragImage::BeginDrag(class wxPoint const &,class wxWindow *,bool,class wxRect *)" (?BeginDrag@wxDragImage@@QEAA_NAEBVwxPoint@@PEAVwxWindow@@_NPEAVwxRect@@@Z)
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_EndDrag referenced in function "public: bool __cdecl wxDragImage::EndDrag(void)" (?EndDrag@wxDragImage@@QEAA_NXZ)
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_DragEnter referenced in function "public: bool __cdecl wxDragImage::Show(void)" (?Show@wxDragImage@@QEAA_NXZ)
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_DragLeave referenced in function "public: bool __cdecl wxDragImage::Hide(void)" (?Hide@wxDragImage@@QEAA_NXZ)
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_DragMove referenced in function "public: bool __cdecl wxDragImage::Move(class wxPoint const &)" (?Move@wxDragImage@@QEAA_NAEBVwxPoint@@@Z)
+wxmsw33ud_core.lib(dragimag.cpp.obj) : error LNK2019: unresolved external symbol __imp_ImageList_SetDragCursorImage referenced in function "public: bool __cdecl wxDragImage::BeginDrag(class wxPoint const &,class wxWindow *,bool,class wxRect *)" (?BeginDrag@wxDragImage@@QEAA_NAEBVwxPoint@@PEAVwxWindow@@_NPEAVwxRect@@@Z)
+LIBCMTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+S:\labs\comp_vision_cpp\CompVision\x64\Debug\CompVision.exe : fatal error LNK1120: 30 unresolved externals

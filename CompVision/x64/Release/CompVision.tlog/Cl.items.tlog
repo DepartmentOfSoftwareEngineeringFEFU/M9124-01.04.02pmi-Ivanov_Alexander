@@ -1,0 +1,11 @@
+S:\labs\comp_vision_cpp\CompVision\CompVision\combined_view.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\combined_view.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\disparity_filtering.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\disparity_filtering.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\disparity_map.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\disparity_map.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\load_view.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\load_view.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\model_matrix.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\model_matrix.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\get_view.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\get_view.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\main.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\main.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\object_search.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\plan_frame_sequence.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\plan_frame_sequence.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\remove_background.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\remove_background.obj
+S:\labs\comp_vision_cpp\CompVision\CompVision\gui.cpp;S:\labs\comp_vision_cpp\CompVision\CompVision\x64\Release\gui.obj

@@ -1,0 +1,2 @@
+﻿  CompVision.cpp
+S:\labs\comp_vision_cpp\CompVision\CompVision\CompVision.cpp(1,10): fatal error C1083: Не удается открыть файл включение: opencv2/core.hpp: No such file or directory,

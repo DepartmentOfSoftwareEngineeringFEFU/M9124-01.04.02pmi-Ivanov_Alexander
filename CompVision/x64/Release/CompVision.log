@@ -1,0 +1,188 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in S:\labs\comp_vision_cpp\CompVision\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  combined_view.cpp
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'combined_view.cpp')
+      G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d_install\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  model_matrix.cpp
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:         with
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:         [
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'model_matrix.cpp')
+      G:\open3d\open3d_install\include\open3d\core\SmallVector.h(106,36):
+      the template instantiation context (the oldest one first) is
+          G:\open3d\open3d_install\include\open3d\core\SizeVector.h(31,34):
+          see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(1260,43):
+          see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(616,32):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(368,40):
+          see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(154,14):
+          see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+          G:\open3d\open3d_install\include\open3d\core\SmallVector.h(105,5):
+          while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(169,50):
+              see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(526,72):
+              see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(630,70):
+              see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SmallVector.h(1263,39):
+              see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+              G:\open3d\open3d_install\include\open3d\core\SizeVector.h(72,18):
+              see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+  object_search.cpp
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(50,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,24): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,24): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,24): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,24): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,24): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,20): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,20): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,20): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,20): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,20): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,36): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,36): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,36): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,36): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,36): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,32): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,32): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,32): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,32): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(69,32): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,35): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,26): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,57): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:         with
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:             _Tp=int
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:         ]
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:         and
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:         [
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:             _Tp=float
+S:\labs\comp_vision_cpp\CompVision\CompVision\object_search.cpp(120,48): warning C4244:         ]
+  Generating code
+  101 of 5132 functions ( 2.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    140 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+Open3D_3rdparty_filament_bluegl.lib(BlueGL.obj) : warning LNK4099: PDB 'bluegl.pdb' was not found with 'Open3D_3rdparty_filament_bluegl.lib(BlueGL.obj)' or at 'S:\labs\comp_vision_cpp\CompVision\x64\Release\bluegl.pdb'; linking object as if no debug info
+Open3D_3rdparty_filament_bluegl.lib(BlueGLWindows.obj) : warning LNK4099: PDB 'bluegl.pdb' was not found with 'Open3D_3rdparty_filament_bluegl.lib(BlueGLWindows.obj)' or at 'S:\labs\comp_vision_cpp\CompVision\x64\Release\bluegl.pdb'; linking object as if no debug info
+  CompVision.vcxproj -> S:\labs\comp_vision_cpp\CompVision\x64\Release\CompVision.exe
+  S:\labs\comp_vision_cpp\CompVision\x64\Release\CompVision.exe: message: deploying dependencies
