@@ -167,15 +167,15 @@ int reconstructFromFrameSequence(const std::vector<int>& frameSequence,
         std::string outputObjPath = basePath + "/out.obj";
         std::string matFilePath = basePath + "/mat.txt";
         // 1. Планирование разреженной последовательности
-        std::vector<int> sparseSeq = { 57, 59 };
-        //std::vector<int> sparseSeq = PlanFrameSequence(basePath, 0, totalFrames - 1, maxStep);
+        //std::vector<int> sparseSeq = { 57, 59 };
+        std::vector<int> sparseSeq = PlanFrameSequence(basePath, 0, totalFrames - 1, maxStep);
         std::cout << u8"Разреженная последовательность (" << sparseSeq.size() << "): ";
         for (int s : sparseSeq) std::cout << s << " ";
         std::cout << std::endl;
 
         // 2. Вычисление последовательности для реконструкции (опорные пары)
-        std::vector<int> reconstructionSeq = { 57, 59 };
-        //std::vector<int> reconstructionSeq = ComputeReconstructionSequence(sparseSeq, frameSequence);
+        //std::vector<int> reconstructionSeq = { 57, 59 };
+        std::vector<int> reconstructionSeq = ComputeReconstructionSequence(sparseSeq, frameSequence);
         std::cout << u8"Последовательность реконструкции (" << reconstructionSeq.size() << "): ";
         for (int r : reconstructionSeq) std::cout << r << " ";
         std::cout << std::endl;
